@@ -1,0 +1,7 @@
+.card[src]{
+    display:grid;
+    grid-template-columns: auto auto auto auto;
+    position: relative;
+    width: 18rem;
+
+}

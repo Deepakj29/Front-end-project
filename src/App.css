@@ -1,0 +1,40 @@
+*{
+  box-sizing: border-box;
+  background-image: url(book/libraryimage.jpg);
+  
+}
+.img{
+  max-width: 100%;
+}
+.navbar{
+  background-color:fuchsia;
+  padding: 30px;
+  justify-content:space-evenly;
+}
+.navbar:hover{
+  background:saddlebrown;
+}
+.form-control{
+  text-align: center;
+  width: 100%;
+ background: bisque;
+ color: red;
+
+}
+.disp>h1{
+  background:tan;
+  margin: 0px;
+
+}
+.outdisp {
+  display:inline-block;
+  width: 8rem;
+  box-sizing: border-box;
+  margin: 20px; 
+}
+.disp{
+  background: tan;
+  color:aliceblue;
+}
+
+
