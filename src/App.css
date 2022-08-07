@@ -7,12 +7,13 @@
   max-width: 100%;
 }
 .navbar{
-  background-color:fuchsia;
-  padding: 30px;
+  background:tomato;
+  padding: 20px;
   justify-content:space-evenly;
+  
 }
 .navbar:hover{
-  background:saddlebrown;
+  background:tan;
 }
 .form-control{
   text-align: center;
@@ -37,4 +38,29 @@
   color:aliceblue;
 }
 
-
+.calc,button{
+  padding:30px;
+  
+  background:sandybrown; 
+  border-color:whitesmoke; 
+  
+} 
+.calc>button:hover{
+  background-color:maroon;
+}
+.calc{
+  display: grid;
+  grid-template-columns: auto auto auto auto;
+  justify-content: center;
+  align-items: center;
+}
+.formcon{
+  padding:20px;
+  background: sandybrown;
+  
+}
+.formcon,input{
+  padding:20px 70px 10px 0px;
+  background:white;
+  
+}
